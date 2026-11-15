@@ -1,0 +1,23 @@
+# Font sources and binaries stay out of the public repo by default.
+# See docs/files.md before changing this.
+*.glyphs
+*.glyphspackage
+*.glyphsproject
+*.ufo
+*.otf
+*.ttf
+*.woff
+*.woff2
+
+# Per-font working folders are local only; the template skeleton is tracked.
+/fonts/*/
+!/fonts/_template/
+
+# Session leftovers that the Claude app may copy into the repo root
+/*.png
+/*-tools/
+
+# Python and macOS
+__pycache__/
+*.pyc
+.DS_Store
