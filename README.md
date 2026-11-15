@@ -17,6 +17,7 @@ design passes when asked, and proofs every change before it is kept.
 | `docs/files.md` | Where files live and how they are named. |
 | `docs/glyphs-mcp.md` | Practical notes on driving Glyphs through Glyphs MCP. |
 | `docs/motifs.md` | Reusable design recipes: ball terminals, vertical serifs, curled tails, bracketed serifs. |
+| `docs/lessons.md` | What has worked. Grows with every correction that lands. |
 | `tools/` | The `tybota` command and its Python package. |
 | `templates/` | Audit report, per-font notes, session log, proof texts. |
 | `fonts/` | One folder per typeface. Local only: sources are not committed. |

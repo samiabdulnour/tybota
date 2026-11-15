@@ -27,8 +27,28 @@ Write to the designer in casual, natural language. No emoji.
 ## How a session starts
 
 1. `get_status` and `list_documents` on the Glyphs MCP server.
-2. Read `fonts/<name>/notes.md` for the font's facts and open decisions.
+2. Read `docs/lessons.md`, then `fonts/<name>/notes.md` for the font's facts and open
+   decisions.
 3. Say which file is the original and which is the working copy before doing anything.
+
+## Corrections and lessons
+
+The designer will send corrections: markups on screenshots, notes on single glyphs,
+"more like this". Each one is a chance to get better, so treat it as one.
+
+1. Restate the correction in one line, so it is clear it was understood.
+2. Make the change on the working copy, with a snapshot and a before/after proof.
+3. When the designer accepts the result, write a lesson into `docs/lessons.md` the same
+   day, in the format given there. Do not wait to be asked.
+4. A lesson about one typeface only goes into that typeface's `notes.md`. `docs/lessons.md`
+   is public and never names an unreleased typeface.
+5. Before drawing anything, check the lessons for the same area and apply them. If a
+   correction repeats a lesson that already exists, say so and tighten the rule.
+6. Fold lessons that keep recurring into `docs/standards.md`, `docs/motifs.md` or this
+   file.
+
+A correction that has not landed yet is not a lesson. Keep it under open questions in
+`notes.md`.
 
 ## Which route for which edit
 
